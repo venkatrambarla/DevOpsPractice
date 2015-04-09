@@ -26,7 +26,7 @@ public class Hello {
   @Path("/{param}")
   public Response getMsg(@PathParam("param") String msg) {
  
-    String output = "Asad & Zakeer say Asalaam Alikum to  : " + msg;
+    String output = "Asad and Venkat say Hello to  : " + msg;
  
     return Response.status(200).entity(output).build();
  
